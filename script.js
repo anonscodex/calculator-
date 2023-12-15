@@ -94,7 +94,7 @@ ac.addEventListener('click', ()=> {
 })
 
 de.addEventListener('click', ()=> {
-    inputscreen.value = inputscreen.innerHTML.toString().slice(0,-1);
+    inputscreen.value = inputscreen.value.toString().slice(0,-1);
 })
 
 div.addEventListener('click', ()=> {
